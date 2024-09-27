@@ -18,10 +18,15 @@ public class Bike extends Vehicle {
     }
 
     @Override
+    public String run() {
+        return "Bike is running";
+    }
+
+    @Override
     public String toString() {
-        return  super.toString() + " " +"Bike{" +
+        return "Bike{" +
                 "handle='" + handle + '\'' +
-                '}';
+                "} " + super.toString();
     }
 }
 

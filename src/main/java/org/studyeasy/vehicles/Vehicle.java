@@ -64,6 +64,10 @@ public class Vehicle {
         this.lights = lights;
     }
 
+    public String run() {
+        return "Vehicle is running";
+    }
+
     @Override
     public String toString() {
         return "Vehicle{" +
